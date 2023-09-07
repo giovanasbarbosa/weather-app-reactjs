@@ -149,6 +149,7 @@ function WeatherApp(){
                     </div>
                 </div>
             </div>
+            <div className="footer">Developed by <a href="https://github.com/giovanasbarbosa" target="_blank">Giovana Barbosa</a></div>
         </div>
     );
 }

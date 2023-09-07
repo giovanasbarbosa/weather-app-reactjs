@@ -15,7 +15,7 @@ LARGE SCREENS: 1200PX-
     margin-top: 30px;
     border-radius: 12px;
     background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .top-bar{
@@ -110,6 +110,18 @@ LARGE SCREENS: 1200PX-
     margin-top: 10px;
 }
 
+.footer{
+    color: white;
+    margin-top: 50px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.115);
+    padding: 5px;
+    border-radius: 20px;
+}
 @media screen and (max-width: 600px){
     .container{
         display: flex;
@@ -131,7 +143,7 @@ LARGE SCREENS: 1200PX-
     
     .top-bar input{
         display: flex;
-        width: 230px;
+        width: 215px;
         height: 55px;
         background-color: #ebfffc;
         border: none;
@@ -150,7 +162,7 @@ LARGE SCREENS: 1200PX-
         align-items: center;
         width: 35px;
         height: 35px;
-        margin-top: 30px;
+        margin-top: 32px;
         padding: 10px;
         background-color: #ebfffc;
         border-radius: 40px;
