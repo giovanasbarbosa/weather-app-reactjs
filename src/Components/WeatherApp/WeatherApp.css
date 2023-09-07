@@ -1,3 +1,11 @@
+/*
+SHORT SCREENS: -600PX
+SMARTPHONE: 600-7068PX
+TABLET: 758PX-992PX
+DESKTOP: 992PX-1200PX
+LARGE SCREENS: 1200PX-
+*/
+
 /*PC*/
 .container{
     width: 960px;
@@ -15,16 +23,10 @@
 
     }
 }
-/*Tablets*/
-@media (min-width: 769px) and (max-width: 1024){
-    .container{
-        width: 500px;
-    }
-}
 /*Short screens*/
 @media (max-width: 480px){
     .container{
-        width: 100%;
+        width: 80%;
     }
 }
 
