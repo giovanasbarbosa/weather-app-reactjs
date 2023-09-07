@@ -10,8 +10,8 @@ LARGE SCREENS: 1200PX-
 .container{
     display: flex;
     flex-direction: column;
-    width: 960px;
-    height: 870px;
+    width: 900px;
+    height: 700px;
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 12px;
@@ -29,7 +29,7 @@ LARGE SCREENS: 1200PX-
 .top-bar input{
     display: flex;
     width: 500px;
-    height: 78px;
+    height: 60px;
     background-color: #ebfffc;
     border: none;
     outline: none;
@@ -48,7 +48,7 @@ LARGE SCREENS: 1200PX-
     align-items: center;
     width: 40px;
     height: 40px;
-    padding: 18px;
+    padding: 9px;
     margin-top: 33px;
     background-color: #ebfffc;
     border-radius: 40px;
@@ -62,7 +62,7 @@ LARGE SCREENS: 1200PX-
 
 .weather-image img{
     margin-top: 10px;
-    max-width: 35%;
+    max-width: 25%;
     height: auto;
 }
 
@@ -70,16 +70,16 @@ LARGE SCREENS: 1200PX-
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 400;
-    height: 130px;
+    height: 110px;
 }
 
 .weather-location{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 300;
 }
 
