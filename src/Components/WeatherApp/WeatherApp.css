@@ -127,6 +127,7 @@ LARGE SCREENS: 1200PX-
         display: flex;
         flex-direction: column;
         width: 85vw;
+        height: 42vh;
         margin: 0 auto;
         margin-top: 30px;
         border-radius: 12px;
@@ -144,7 +145,7 @@ LARGE SCREENS: 1200PX-
     .top-bar input{
         display: flex;
         width: 210px;
-        height: 55px;
+        height: 40px;
         background-color: #ebfffc;
         border: none;
         outline: none;
@@ -160,9 +161,9 @@ LARGE SCREENS: 1200PX-
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 35px;
-        height: 35px;
-        margin-top: 34px;
+        width: 20px;
+        height: 20px;
+        margin-top: 32px;
         padding: 10px;
         background-color: #ebfffc;
         border-radius: 40px;
@@ -176,7 +177,7 @@ LARGE SCREENS: 1200PX-
     
     .weather-image img{
         margin-top: 20px;
-        max-width: 50%;
+        max-width: 43%;
         height: auto;
     }
     
@@ -184,21 +185,21 @@ LARGE SCREENS: 1200PX-
         display: flex;
         justify-content: center;
         color: white;
-        font-size: 70px;
+        font-size: 60px;
         font-weight: 300;
-        height: 75px;
+        height: 65px;
     }
     
     .weather-location{
         display: flex;
         justify-content: center;
         color: white;
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 200;
     }
     
     .data-container{
-        margin: 30px 20px 0px;
+        margin: 40px 20px 0px;
         color: white;
         display: flex;
         justify-content: center;
@@ -224,5 +225,9 @@ LARGE SCREENS: 1200PX-
     .icon{
         margin-top: 10px;
         width: 30px;
+    }
+    .footer{
+        margin-top: 40px;
+        font-size: 13px;
     }
 }
