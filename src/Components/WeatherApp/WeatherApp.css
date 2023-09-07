@@ -122,12 +122,11 @@ LARGE SCREENS: 1200PX-
     padding: 5px;
     border-radius: 20px;
 }
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px) and (max-width: 900px) {
     .container{
         display: flex;
         flex-direction: column;
-        width: 85vw;
-        height: 42vh;
+        width: 400px;
         margin: 0 auto;
         margin-top: 30px;
         border-radius: 12px;
